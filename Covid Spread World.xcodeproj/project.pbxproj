@@ -41,6 +41,7 @@
 		DE59BD0A2442584400E12146 /* SummaryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryError.swift; sourceTree = "<group>"; };
 		DE59BD0D24425B9700E12146 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		DE59BD1124425C2800E12146 /* SummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewModel.swift; sourceTree = "<group>"; };
+		DE7DCE4F244CE04500088314 /* Covid Spread World.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Covid Spread World.entitlements"; sourceTree = "<group>"; };
 		DE8FF9002443C12B00011FC5 /* NumberFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +75,7 @@
 		DE59BCDF244142B800E12146 /* Covid Spread World */ = {
 			isa = PBXGroup;
 			children = (
+				DE7DCE4F244CE04500088314 /* Covid Spread World.entitlements */,
 				DE59BD0F24425C0B00E12146 /* ViewModel */,
 				DE59BD0C24425B8F00E12146 /* Utilities */,
 				DE59BCFE2442511300E12146 /* Domain */,
@@ -456,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Covid Spread World/Covid Spread World.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Covid Spread World/Preview Content\"";
 				DEVELOPMENT_TEAM = J2EB484G7Z;
@@ -467,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.covid.Covid-Spread-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Covid Spread World/Covid Spread World.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Covid Spread World/Preview Content\"";
 				DEVELOPMENT_TEAM = J2EB484G7Z;
@@ -487,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.covid.Covid-Spread-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
