@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE59BCDD244142B800E12146 /* Covid Spread World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid Spread World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE59BCDD244142B800E12146 /* Corona App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE59BCE0244142B800E12146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE59BCE2244142B800E12146 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE59BCE4244142B800E12146 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		DE59BCDE244142B800E12146 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE59BCDD244142B800E12146 /* Covid Spread World.app */,
+				DE59BCDD244142B800E12146 /* Corona App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 			);
 			name = "Covid Spread World";
 			productName = "Covid Spread World";
-			productReference = DE59BCDD244142B800E12146 /* Covid Spread World.app */;
+			productReference = DE59BCDD244142B800E12146 /* Corona App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -469,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.covid.Covid-Spread-World";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Corona App";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.covid.Covid-Spread-World";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Corona App";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
